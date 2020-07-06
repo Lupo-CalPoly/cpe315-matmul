@@ -14,7 +14,7 @@
 //    for (unsigned int j = 0; j < wB; ++j) {
 //      int sum = 0;
 //      for (unsigned int k = 0; k < wA; ++k) {
-//        sum += A[i * wA + k] * B[j * wB + k];
+//        sum += A[i * wA + k] * B[k * wB + j];
 //      }
 //      C[i * wB + j] = sum;
 //    }
